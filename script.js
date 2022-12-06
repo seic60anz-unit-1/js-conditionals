@@ -24,3 +24,15 @@ if (pizza == "Y" || pizza == "y") {
         console.log("brussel sprouts for you!")
     }
 }
+
+//Bouncer 1
+let age = prompt("What is your age?")
+if (age > 75) {
+    console.log("Are you sure you want to be here?")
+} else if (age >= 21) {
+    console.log("Come on in!")
+} else if (age >= 18) {
+    console.log("Come on in (but no drinking)!")
+} else {
+    console.log("You're too young to be in here!")
+}
