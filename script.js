@@ -39,9 +39,24 @@ if (age > 21) {
 }
 
 // Bouncer 2 
-let hasId = true
+const hasId = true
 if (hasId === true) {
     console.log("I need to check your age.")
 } else {
     console.log("No ID, no entry.")
 }
+
+// Valentine's Day Flowchart
+const inRelo = false 
+const srs = true
+if (inRelo === true) {
+    if (inRelo === srs) {
+        console.log("Romantic dinner for two")
+    } else {
+        console.log("Head to the closest bar")
+    }
+} else { 
+    console.log("Head to the closest bar")
+}
+
+// Letter to Santa Flowchart
