@@ -87,8 +87,8 @@ if(haveCard = true){
 let relationship = true
 let serious =true
 
-if(relationship = true){
-    if(serious = true){
+if(relationship === true){
+    if(serious === true){
         console.log("Romantic dinner for two")
     } else{
         console.log("Head to the closet bar")
@@ -103,12 +103,12 @@ if(relationship = true){
 let nice = true
 let stamp = true
 
-if(nice = true){
+if(nice === true){
     console.log('Write your wishlist and letter to Santa.')
     console.log('Address your envelope with "1 Candy Cane Lane, North Pole".')
     console.log('Fold and place your letter in your envelop.')
     console.log('Do you have a stamp')
-    if(stamp = true){
+    if(stamp === true){
         console.log('Place it on the envelop.')
         console.log('You\'re done! Let\'s mail your letter to Santa!')
     } else{
