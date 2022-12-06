@@ -53,3 +53,17 @@ if (hasID === true) {
 } else {
     console.log("No ID, no entry.")
 }
+
+//Valentine's Day Flowchart
+
+let relationship = confirm("Are you in a relationship?")
+if (relationship === true) {
+    let serious = confirm("Is it serious?")
+    if (serious === true) {
+        console.log("Romantic dinner for two")
+    } else {
+        console.log("Head to the closest bar")
+    }
+} else {
+    console.log("Head to the closest bar")
+}
