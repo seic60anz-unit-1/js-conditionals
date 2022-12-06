@@ -36,3 +36,20 @@ if (age > 75) {
 } else {
     console.log("You're too young to be in here!")
 }
+
+//Bouncer 2
+let hasID = confirm("Do you have an ID?")
+if (hasID === true) {
+    let age = prompt("What is your age?")
+    if (age > 75) {
+        console.log("Are you sure you want to be here?")
+    } else if (age >= 21) {
+        console.log("Come on in!")
+    } else if (age >= 18) {
+        console.log("Come on in (but no drinking)!")
+    } else {
+        console.log("You're too young to be in here!")
+    }
+} else {
+    console.log("No ID, no entry.")
+}
