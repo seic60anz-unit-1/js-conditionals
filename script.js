@@ -23,3 +23,17 @@ if (foodPreference === foodPref1) {
 } else {
     console.log("brussel sprouts for you!")
 }
+
+// Bouncer 1 
+const age = 24 
+if (age > 21) {
+    console.log("Come on in!")
+} else if (age > 17 && age < 22) {
+    console.log("Come on in (but no drinking)!")
+} else if (age < 18) {
+    console.log("You're too young to be in here!")
+} else if (age > 75) {
+    console.log("Are you sure you want to be here?")
+} else {
+    console.log("")
+}
