@@ -37,3 +37,11 @@ if (age > 21) {
 } else {
     console.log("")
 }
+
+// Bouncer 2 
+let hasId = true
+if (hasId === true) {
+    console.log("I need to check your age.")
+} else {
+    console.log("No ID, no entry.")
+}
