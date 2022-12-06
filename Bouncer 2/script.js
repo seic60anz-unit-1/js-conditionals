@@ -1,6 +1,6 @@
-let hasId
+let hasId = true
 if (hasId === true) {
     console.log('please let me verify your ID')
-} else if (hasId === false) {
+} else {
     console.log('No ID, no entry.')
 }
