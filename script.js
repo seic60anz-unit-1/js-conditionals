@@ -67,3 +67,22 @@ if (relationship === true) {
 } else {
     console.log("Head to the closest bar")
 }
+
+//Letter to Santa Flowchart
+
+if (confirm("Have you been naughty or nice? OK if naughty. Cancel if nice")) {
+    console.log("Do a good deed!")
+} else {
+    console.log("Write your wishlist and letter to Santa.")
+    console.log("Address your envelope with \"1 Candy Cane Lane, North Pole\".")
+    console.log("Fold and place your letter in your envelope.")
+    let stamp = confirm("Do you have a stamp?")
+    if (stamp === true) {
+        console.log("Place it on the envelope.")
+        console.log("You\'re done! Let\'s mail your letter to Santa!")
+    } else {
+        console.log("Get a stamp from teacher.")
+        console.log("Place it on the envelope.")
+        console.log("You\'re done! Let\'s mail your letter to Santa!")
+    }
+}
