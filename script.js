@@ -14,9 +14,11 @@ if (studentScore >= 80) {
 
 // Pizza/Pasta 
 const foodPreference = prompt("What do you want to eat?")
-if (foodPreference = pizza) {
+const foodPref1 = "pizza"
+const foodPref2 = "pasta"
+if (foodPreference === foodPref1) {
     console.log("yay pizza!!")
-} else if (foodPreference = pasta) {
+} else if (foodPreference === foodPref2) {
     console.log("ooh I love pasta!!")
 } else {
     console.log("brussel sprouts for you!")
